@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Assignment 8</title>
+  <link href="styles.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  <div class="grid-container">
+    <header>Assignment 8 – Responsive and Accessible Design</header>
+    <nav>
+      <ul>
+        <li><a href="https://www.columbusstate.edu/" target="_blank" tabindex="1">CSU Website</a></li><br>
+        <li><a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/" target="_blank" tabindex="2">Web Accessibility Standards</a></li><br>
+        <li><a href="https://www.responsivedesignchecker.com/" target="_blank" tabindex="3">Responsive Web Design Checker</a></li><br>
+      </ul>
+    </nav>
+    <main>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/440px-Lion_waiting_in_Namibia.jpg" alt="A massive grown lion laying down and relaxing">
+    </main>
+    <aside>
+      <svg height="130" width="500" aria-labelledby="logoTitle logoDesc" role="img">
+        <title id="logoTitle">Assignment 8 Logo</title>
+        <desc id="logoDesc">The Assignment 8 logo, written in an blue and green gradient oval.</desc>
+        <defs>
+          <linearGradient id="grad1">
+            <stop offset="0%" stop-color="blue" />
+            <stop offset="65%" stop-color="green" />
+          </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+        <text fill="#ffffff" font-size="35" font-family="Verdana" x="50" y="86" text-align="center">ASN8</text>
+      </svg>
+    </aside>
+    <footer>William Wynn Fall 2024</footer>
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>

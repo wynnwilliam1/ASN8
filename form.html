@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Assignment 8</title>
+  <link href="styles.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  <div class="grid-container">
+    <header>Assignment 8 – Responsive and Accessible Design</header>
+    <nav>
+      <ul>
+        <li><a href="https://www.columbusstate.edu/" target="_blank">CSU Website</a></li>
+        <li><a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/" target="_blank">Web Accessibility Standards</a></li>
+        <li><a href="https://www.responsivedesignchecker.com/" target="_blank">Responsive Web Design Checker</a></li>
+      </ul>
+    </nav>
+    <main>
+      <form id="frm1">
+       <label for="fname">First name:</label><br>
+       <input type="text" id="fname" name="fname" value="John" tabindex="1"><br>
+       <label for="lname">Last name:</label><br>
+       <input type="text" id="lname" name="lname" value="Doe" tabindex="2"><br><br>
+       <input type="submit" value="Submit" tabindex="3">
+      </form>
+    </main>
+    <aside>
+      <svg height="130" width="500" aria-labelledby="logoTitle logoDesc" role="img">
+        <title id="logoTitle">Assignment 8 Logo</title>
+        <desc id="logoDesc">The Assignment 8 logo, written in an blue and green gradient oval.</desc>
+        <defs>
+          <linearGradient id="grad1">
+            <stop offset="0%" stop-color="blue" />
+            <stop offset="65%" stop-color="green" />
+          </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+        <text fill="#ffffff" font-size="35" font-family="Verdana" x="50" y="86" text-align="center">ASN8</text>
+      </svg>
+    </aside>
+    <footer>William Wynn Fall 2024</footer>
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>
